@@ -8,11 +8,6 @@ get_ipython().system('pip install git+https://github.com/openai/whisper.git')
 get_ipython().system(' pip install jiwer')
 
 
-# In[31]:
-
-
-get_ipython().system(' pip install pyaudio')
-    
 
 
 # In[41]:
@@ -114,11 +109,11 @@ print(result.text)
 # In[51]:
 
 
-result = model.transcribe("ich_trinke_esse_gerne-mf.mp3")
+result = model.transcribe("recording0.wav")
 print(result["text"])
 
 
-# In[ ]:
+
 
 
 
