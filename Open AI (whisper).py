@@ -63,7 +63,7 @@ result = model.transcribe("ich_trinke_esse_gerne-mf.mp3")
 print(result["text"])
 
 
-# In[ ]:
+
 
 
 
