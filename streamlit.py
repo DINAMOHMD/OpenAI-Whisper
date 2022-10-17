@@ -10,13 +10,6 @@ print(
 st.subheader("Please press the button and start talking ")
 st.button("Start")
 st.subheader("the result")
-
-
-
-
-
-
-
 import sounddevice as sd
 from scipy.io.wavfile import write
 import wavio as wv
